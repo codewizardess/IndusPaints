@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automotive Refinish Tools & Consumables Catalog | Indus Paints</title>
+  <meta name="description" content="Explore professional Aeropro HVLP/LVLP spray guns, multi-grit sanding discs, masking films, air pressure regulators, and booth filters from Indus Paints.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+  <!-- Ambient Background -->
+  <div class="bg-ambient"></div>
+  <div class="bg-grid-pattern"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="Landing.html" class="brand-logo">
+        <div class="logo-badge">IP</div>
+        <div class="logo-text">
+          <span class="logo-name">INDUS <span>PAINTS</span></span>
+          <span class="logo-tagline">Automotive Refinish</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="Landing.html" class="nav-link">Home</a></li>
+          <li><a href="products.html" class="nav-link active">Products & Tools</a></li>
+          <li><a href="Dealers.html" class="nav-link">Authorized Brands</a></li>
+          <li><a href="About.html" class="nav-link">About Us</a></li>
+          <li><a href="Contact.html" class="nav-link">Contact & Locations</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="nav-btn-quote" onclick="openQuoteModal()">
+          <i class="fas fa-file-invoice"></i> Get a Quote
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Catalog Header -->
+    <section class="container" style="padding-top: 3.5rem;">
+      <div class="section-header" style="margin-bottom: 2.5rem;">
+        <div class="badge-tag"><i class="fas fa-cubes"></i> Professional Equipment & Supplies</div>
+        <h1 class="section-title">Automotive Workshop Catalog</h1>
+        <p class="section-subtitle">Precision spray guns, high-durability abrasives, masking films, and safety gear designed for championship body shop results.</p>
+      </div>
+
+      <!-- Filter and Search Bar -->
+      <div class="catalog-header">
+        <div class="filter-bar">
+          <div class="filter-tabs">
+            <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+            <button class="filter-btn" onclick="filterProducts('guns')">Spray Guns</button>
+            <button class="filter-btn" onclick="filterProducts('sanding')">Abrasives & Sanding</button>
+            <button class="filter-btn" onclick="filterProducts('masking')">Masking & Prep</button>
+            <button class="filter-btn" onclick="filterProducts('safety')">Air & Safety</button>
+          </div>
+
+          <div class="search-wrap">
+            <i class="fas fa-search"></i>
+            <input type="text" id="productSearch" placeholder="Search spray guns, discs, filters..." onkeyup="searchProducts()">
+          </div>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productGrid">
+
+        <!-- Product 1: A608 -->
+        <div class="product-item" data-category="guns" data-title="Aeropro A608 Premium 1.3 HVLP Spray Gun">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Spray Guns</span>
+            <img src="A608 Aeropro Premium 1.3 HVLP Spray Gun .jpg" alt="Aeropro A608 HVLP" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Aeropro A608 HVLP 1.3mm</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 1.3mm Stainless Steel Nozzle</span>
+              <span><i class="fas fa-check"></i> High Transfer Efficiency (HVLP)</span>
+              <span><i class="fas fa-check"></i> 600ml Gravity Feed Cup</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Aeropro A608 HVLP 1.3mm')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Aeropro%20A608%20HVLP%20Spray%20Gun." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: A610 -->
+        <div class="product-item" data-category="guns" data-title="Aeropro A610 Premium 1.3mm LVLP Spray Gun">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Spray Guns</span>
+            <img src="A610 Aeropro Premium 1.3mm LVLP Spray Gun .jpg" alt="Aeropro A610 LVLP" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Aeropro A610 LVLP 1.3mm</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Low Volume Low Pressure Tech</span>
+              <span><i class="fas fa-check"></i> Minimal Overspray & High Precision</span>
+              <span><i class="fas fa-check"></i> Ultra Ergonomic Anodized Body</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Aeropro A610 LVLP 1.3mm')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Aeropro%20A610%20LVLP%20Spray%20Gun." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: A605 -->
+        <div class="product-item" data-category="guns" data-title="Aeropro A605 1.3mm HVLP Spray Gun">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Spray Guns</span>
+            <img src="A605 Aeropro 1.3mm HVLP Spray Gun.jpg" alt="Aeropro A605 HVLP" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Aeropro A605 HVLP 1.3mm</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Fine Atomization Nozzle</span>
+              <span><i class="fas fa-check"></i> Durable Chrome Plated Finish</span>
+              <span><i class="fas fa-check"></i> Ideal for Primer & Basecoat</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Aeropro A605 HVLP 1.3mm')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Aeropro%20A605%20HVLP%20Spray%20Gun." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: R500 -->
+        <div class="product-item" data-category="guns" data-title="Aeropro R500 1.3 LVLP Spray Gun">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Spray Guns</span>
+            <img src="R500 Aeropro 1.3 LVLP Spray Gun.jpg" alt="Aeropro R500 LVLP" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Aeropro R500 LVLP 1.3mm</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Economical Low Air Consumption</span>
+              <span><i class="fas fa-check"></i> Wide Fan Pattern (200-280mm)</span>
+              <span><i class="fas fa-check"></i> High Transfer Rate Clearcoat Finish</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Aeropro R500 LVLP 1.3mm')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Aeropro%20R500%20LVLP%20Spray%20Gun." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5: R100 -->
+        <div class="product-item" data-category="guns" data-title="Aeropro R100 Mini Touch-Up Spray Gun">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Spray Guns</span>
+            <img src="R100 Aeropro Premium 1.3 HVLP Spray Gun.jpg" alt="Aeropro R100 Touch-Up Gun" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Aeropro R100 Touch-Up Gun</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Compact Spot Repair & Edge Blending</span>
+              <span><i class="fas fa-check"></i> 125ml/250ml Mini Cup Option</span>
+              <span><i class="fas fa-check"></i> Micro-Adjustable Air & Fluid Dial</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Aeropro R100 Touch-Up Gun')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Aeropro%20R100%20Spray%20Gun." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6: Sanding Machine -->
+        <div class="product-item" data-category="sanding" data-title="Pneumatic Dual Action Orbital Sanding Machine">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Sanding</span>
+            <img src="Sanding Machine.jpg" alt="Pneumatic Orbital Sander" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">DA Pneumatic Orbital Sander</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 6-Inch (150mm) Sanding Pad</span>
+              <span><i class="fas fa-check"></i> 10,000 RPM Free Speed</span>
+              <span><i class="fas fa-check"></i> Central Vacuum Dust Extraction</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('DA Pneumatic Orbital Sander')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20the%20Pneumatic%20Orbital%20Sander." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7: Sanding Discs P80 -->
+        <div class="product-item" data-category="sanding" data-title="Velcro Sanding Discs P80 Multi-Hole">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Sanding</span>
+            <img src="Disc 80.jpg" alt="Sanding Disc P80" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Velcro Sanding Discs (P80)</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 6-Inch Multi-Hole Dust Extraction</span>
+              <span><i class="fas fa-check"></i> Rapid Body Filler Leveling</span>
+              <span><i class="fas fa-check"></i> Anti-Clogging Stearate Coat</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Velcro Sanding Discs (P80)')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20P80%20Sanding%20Discs." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8: Sanding Discs P1200 -->
+        <div class="product-item" data-category="sanding" data-title="Velcro Sanding Discs P1200 Ultra Fine">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Sanding</span>
+            <img src="Disc 1200.jpg" alt="Sanding Disc P1200" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Velcro Sanding Discs (P1200)</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Ultra-Fine Clearcoat Sanding</span>
+              <span><i class="fas fa-check"></i> Paint Defect & Nib Removal</span>
+              <span><i class="fas fa-check"></i> Prepares Surface for Mirror Buffing</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Velcro Sanding Discs (P1200)')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20P1200%20Sanding%20Discs." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9: Sanding File Sheets -->
+        <div class="product-item" data-category="sanding" data-title="Abrasive File Sheet Roll (P80 - P400)">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Sanding</span>
+            <img src="File Sheet 80.jpg" alt="Abrasive File Sheet" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Abrasive File Sheet Roll</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 70mm x 198mm Hand Block Fit</span>
+              <span><i class="fas fa-check"></i> Available in P80 to P400 Grit</span>
+              <span><i class="fas fa-check"></i> Perfect for Longboard Body Line Shaping</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Abrasive File Sheet Roll')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Abrasive%20File%20Sheets." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 10: Interface Pad & Backup Pad -->
+        <div class="product-item" data-category="sanding" data-title="Soft Sponge Interface Pad & Backup Pad">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Sanding</span>
+            <img src="Interface Pad.jpg" alt="Interface Pad" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Soft Sponge Interface Pad</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 10mm Dense Sponge Cushion</span>
+              <span><i class="fas fa-check"></i> Conforms to Vehicle Body Curves</span>
+              <span><i class="fas fa-check"></i> Prevents Edge Burn-Through</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Soft Sponge Interface Pad')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Interface%20Pads." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 11: Masking Film Role -->
+        <div class="product-item" data-category="masking" data-title="Automotive Corona Treated Masking Film">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Masking</span>
+            <img src="Masking Film Role.jpg" alt="Masking Film Role" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Corona Treated Masking Film</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 4m x 150m Heavy-Duty Roll</span>
+              <span><i class="fas fa-check"></i> Static Cling to Vehicle Surface</span>
+              <span><i class="fas fa-check"></i> Prevents Paint Flaking & Bleed</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Corona Treated Masking Film')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Automotive%20Masking%20Film." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 12: Brown Masking Tape & Poly Roll -->
+        <div class="product-item" data-category="masking" data-title="High Temperature Automotive Masking Tape">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Masking</span>
+            <img src="Brown Masking Role.jpg" alt="Brown Masking Roll" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Automotive Masking Tape</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Heat Resistant up to 110°C (Baking)</span>
+              <span><i class="fas fa-check"></i> Clean Razor-Sharp Paint Edge</span>
+              <span><i class="fas fa-check"></i> Zero Adhesive Residue on Removal</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Automotive Masking Tape')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Masking%20Tapes." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 13: Filter Cone -->
+        <div class="product-item" data-category="masking" data-title="High Micron Nylon Mesh Paint Filter Cones">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Masking</span>
+            <img src="Filter Cone.jpg" alt="Filter Cones" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Nylon Mesh Paint Strainers</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 190 / 125 Micron Fine Filtration</span>
+              <span><i class="fas fa-check"></i> Removes Dust Particles & Clumps</span>
+              <span><i class="fas fa-check"></i> Solvent & Waterborne Compatible</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Nylon Mesh Paint Strainers')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Paint%20Filter%20Cones." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 14: Booth Filter -->
+        <div class="product-item" data-category="safety" data-title="Spray Booth Ceiling & Floor Exhaust Filter">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Air & Safety</span>
+            <img src="Booth Filter.jpg" alt="Spray Booth Filter" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Spray Booth Air Filters</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Ceiling Diffuser & Floor Fiberglass</span>
+              <span><i class="fas fa-check"></i> 99% Overspray Capture Efficiency</span>
+              <span><i class="fas fa-check"></i> Maintains Laminar Airflow in Booth</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Spray Booth Air Filters')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Spray%20Booth%20Filters." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 15: Air Pressure Regulator -->
+        <div class="product-item" data-category="safety" data-title="Precision Air Regulator with Moisture Trap">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Air & Safety</span>
+            <img src="Air Pressure Regulator.jpg" alt="Air Pressure Regulator" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Precision Air Regulator & Gauge</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> 0-150 PSI Precision Dial</span>
+              <span><i class="fas fa-check"></i> Direct Gun Inlet Mounting</span>
+              <span><i class="fas fa-check"></i> Prevents Pressure Drop Fluctuations</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Precision Air Regulator & Gauge')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Air%20Regulators." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 16: Respiratory Mask -->
+        <div class="product-item" data-category="safety" data-title="Dual Carbon Cartridge Respiratory Mask">
+          <div class="product-thumb-wrap">
+            <span class="product-category-tag">Air & Safety</span>
+            <img src="Respiratory Mask.jpg" alt="Respiratory Mask" class="product-thumb">
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Dual Cartridge Respirator</h3>
+            <div class="product-specs">
+              <span><i class="fas fa-check"></i> Active Organic Vapor Filters</span>
+              <span><i class="fas fa-check"></i> Soft Hypoallergenic Face Seal</span>
+              <span><i class="fas fa-check"></i> Essential for Isocyanate Clearcoats</span>
+            </div>
+            <div class="product-actions">
+              <button class="btn-inquire" onclick="openProductQuote('Dual Cartridge Respirator')">
+                <i class="fas fa-file-alt"></i> Quote
+              </button>
+              <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20want%20to%20inquire%20about%20Respiratory%20Masks." target="_blank" class="btn-whatsapp-sm" title="WhatsApp Inquiry">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bulk Supply Banner -->
+    <section class="container" style="margin-top: 4rem;">
+      <div class="cta-banner">
+        <div class="cta-content">
+          <div class="badge-tag" style="margin-bottom: 0.75rem;"><i class="fas fa-truck-loading"></i> Wholesale Supply</div>
+          <h2>Looking for Regular Workshop Consumables & Supplies?</h2>
+          <p>We provide monthly wholesale supplies of sanding discs, masking rolls, booth filters, and clearcoats with priority delivery to service centers across Tamil Nadu.</p>
+        </div>
+        <div class="cta-actions">
+          <button class="btn-primary" onclick="openQuoteModal()">
+            <i class="fas fa-handshake"></i> Request Bulk Contract
+          </button>
+          <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20we%20would%20like%20to%20discuss%20a%20bulk%20workshop%20supply%20contract." target="_blank" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> Discuss on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Quote Modal -->
+  <div class="modal-backdrop" id="quoteModal">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeQuoteModal()"><i class="fas fa-times"></i></button>
+      <div class="badge-tag" style="margin-bottom: 0.75rem;"><i class="fas fa-file-invoice-dollar"></i> Product Inquiry</div>
+      <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: #fff;">Inquire for Product Price</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--text-muted);">Get exact wholesale pricing and stock availability delivered to your WhatsApp/Email.</p>
+
+      <form action="https://formsubmit.co/induspaintsvellore@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="📦 Product Catalog Inquiry - Indus Paints">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+
+        <div class="form-group">
+          <label for="modalName">Your Name / Workshop Name</label>
+          <input type="text" id="modalName" name="name" placeholder="e.g. Apex Auto Body Shop" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalPhone">Phone / WhatsApp Number</label>
+          <input type="tel" id="modalPhone" name="phone" placeholder="e.g. +91 98765 43210" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalProduct">Selected Product</label>
+          <input type="text" id="modalProduct" name="product" placeholder="Product name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalQuantity">Quantity Required</label>
+          <input type="text" id="modalQuantity" name="quantity" placeholder="e.g. 2 Spray Guns / 500 Sanding Discs / 10 Rolls">
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
+          <i class="fas fa-paper-plane"></i> Send Inquiry
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating Quick Actions -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919159911569?text=Hi%20Indus%20Paints,%20I%20would%20like%20to%20inquire%20about%20your%20products." target="_blank" class="float-btn float-btn-whatsapp" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919159911569" class="float-btn float-btn-phone" title="Call Indus Paints">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="logo-badge">IP</div>
+            <div class="logo-text">
+              <span class="logo-name">INDUS <span>PAINTS</span></span>
+              <span class="logo-tagline">Automotive Refinish</span>
+            </div>
+          </div>
+          <p>Premier distributor of world-class automotive refinish paints, OEM color matching systems, and professional workshop spray equipment since 2007.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/share/16fUwXoJbW/" target="_blank" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/indus_paints_vellore?igsh=YnhrN3Jlbzc2Z3Rj" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:induspaintsvellore@gmail.com" class="social-icon" title="Email Us"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="Landing.html">Home</a></li>
+            <li><a href="products.html">Product Catalog</a></li>
+            <li><a href="Dealers.html">Authorized Brands</a></li>
+            <li><a href="About.html">About Indus Paints</a></li>
+            <li><a href="Contact.html">Contact & Branches</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Brands</h4>
+          <ul class="footer-links">
+            <li><a href="Dealers.html#glasurit">Glasurit (BASF)</a></li>
+            <li><a href="Dealers.html#valspar">Valspar Refinish</a></li>
+            <li><a href="Dealers.html#nerolac">Kansai Nerolac</a></li>
+            <li><a href="Dealers.html#prospray">Prospray Finishes</a></li>
+            <li><a href="products.html">Aeropro Spray Tools</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Branch Hubs</h4>
+          <div style="font-size: 0.9rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.75rem;">
+            <div>
+              <strong style="color: #fff;"><i class="fas fa-map-marker-alt" style="color: var(--primary);"></i> Chennai:</strong><br>
+              31/A Tansi Nagar, Velachery, Chennai-600042
+            </div>
+            <div>
+              <strong style="color: #fff;"><i class="fas fa-map-marker-alt" style="color: var(--primary);"></i> Vellore:</strong><br>
+              246A Viruthampattu, Vellore-632602
+            </div>
+            <div>
+              <strong style="color: #fff;"><i class="fas fa-phone" style="color: var(--primary);"></i> Helpline:</strong> +91 91599 11569
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Indus Paints. All Rights Reserved. Built for Automotive Refinishing Excellence.</p>
+        <p><a href="Terms.html" style="color: var(--text-dim);">Terms of Use</a> | <a href="policy.html" style="color: var(--text-dim);">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Category Filtering
+    function filterProducts(category) {
+      const buttons = document.querySelectorAll('.filter-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const items = document.querySelectorAll('.product-item');
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Live Search
+    function searchProducts() {
+      const query = document.getElementById('productSearch').value.toLowerCase();
+      const items = document.querySelectorAll('.product-item');
+
+      items.forEach(item => {
+        const title = item.getAttribute('data-title').toLowerCase();
+        if (title.includes(query)) {
+          item.style.display = 'flex';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Modal Control
+    function openQuoteModal() {
+      document.getElementById('quoteModal').classList.add('open');
+    }
+    function closeQuoteModal() {
+      document.getElementById('quoteModal').classList.remove('open');
+    }
+    function openProductQuote(productName) {
+      document.getElementById('modalProduct').value = productName;
+      openQuoteModal();
+    }
+    window.onclick = function(event) {
+      const modal = document.getElementById('quoteModal');
+      if (event.target === modal) {
+        closeQuoteModal();
+      }
+    }
+
+    // Mobile Toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navMenu = document.getElementById('navMenu');
+    if (mobileToggle) {
+      mobileToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
