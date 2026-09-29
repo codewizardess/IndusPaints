@@ -22,31 +22,31 @@ export default function Contact() {
             <h3 className="branch-title">Chennai Distribution Center</h3>
             <ul className="branch-detail-list">
               <li className="branch-detail-item">
-                <MapPin size={20} color="#0284c7" />
+                <MapPin size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Address:</strong><br />
-                  31/A Ground Floor, 4th Street, Tansi Nagar, Velachery, Chennai – 600 042, Tamil Nadu.
+                  <strong style={{ color: 'var(--text-white)' }}>Address:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>31/A Ground Floor, 4th Street, Tansi Nagar, Velachery, Chennai – 600 042, Tamil Nadu.</span>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Phone size={20} color="#0284c7" />
+                <Phone size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Direct Phone:</strong><br />
-                  <a href="tel:+919159911569" style={{ color: '#0284c7', fontWeight: 600 }}>+91 91599 11569</a>
+                  <strong style={{ color: 'var(--text-white)' }}>Direct Phone:</strong><br />
+                  <a href="tel:+919159911569" style={{ color: 'var(--primary-cyan)', fontWeight: 600 }}>+91 91599 11569</a>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Mail size={20} color="#0284c7" />
+                <Mail size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Email:</strong><br />
-                  induspaintsvellore@gmail.com
+                  <strong style={{ color: 'var(--text-white)' }}>Email:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>induspaintsvellore@gmail.com</span>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Clock size={20} color="#0284c7" />
+                <Clock size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Working Hours:</strong><br />
-                  Mon – Sat: 9:00 AM – 8:30 PM (Sunday Closed)
+                  <strong style={{ color: 'var(--text-white)' }}>Working Hours:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>Mon – Sat: 9:00 AM – 8:30 PM (Sunday Closed)</span>
                 </div>
               </li>
             </ul>
@@ -67,31 +67,31 @@ export default function Contact() {
             <h3 className="branch-title">Vellore Color Mixing Hub</h3>
             <ul className="branch-detail-list">
               <li className="branch-detail-item">
-                <MapPin size={20} color="#0284c7" />
+                <MapPin size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Address:</strong><br />
-                  246A, 1st Floor, G.K. Moopanar St, Viruthampattu, Vellore – 632 602, Tamil Nadu.
+                  <strong style={{ color: 'var(--text-white)' }}>Address:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>246A, 1st Floor, G.K. Moopanar St, Viruthampattu, Vellore – 632 602, Tamil Nadu.</span>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Phone size={20} color="#0284c7" />
+                <Phone size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Direct Phone:</strong><br />
-                  <a href="tel:+919159911569" style={{ color: '#0284c7', fontWeight: 600 }}>+91 91599 11569</a>
+                  <strong style={{ color: 'var(--text-white)' }}>Direct Phone:</strong><br />
+                  <a href="tel:+919159911569" style={{ color: 'var(--primary-cyan)', fontWeight: 600 }}>+91 91599 11569</a>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Mail size={20} color="#0284c7" />
+                <Mail size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Email:</strong><br />
-                  induspaintsvellore@gmail.com
+                  <strong style={{ color: 'var(--text-white)' }}>Email:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>induspaintsvellore@gmail.com</span>
                 </div>
               </li>
               <li className="branch-detail-item">
-                <Clock size={20} color="#0284c7" />
+                <Clock size={20} color="var(--primary-cyan)" />
                 <div>
-                  <strong style={{ color: '#0f172a' }}>Working Hours:</strong><br />
-                  Mon – Sat: 9:00 AM – 8:30 PM (Sunday Closed)
+                  <strong style={{ color: 'var(--text-white)' }}>Working Hours:</strong><br />
+                  <span style={{ color: 'var(--text-body)' }}>Mon – Sat: 9:00 AM – 8:30 PM (Sunday Closed)</span>
                 </div>
               </li>
             </ul>
@@ -112,8 +112,8 @@ export default function Contact() {
         <div className="contact-layout" style={{ marginBottom: '4rem' }}>
           <div className="contact-card-glass">
             <div className="badge-tag" style={{ marginBottom: '1rem' }}><MessageSquare size={14} /> Direct Channels</div>
-            <h2 style={{ fontSize: '2rem', color: '#0f172a', marginBottom: '1rem' }}>How Can We Help Your Workshop?</h2>
-            <p style={{ marginBottom: '1.5rem', color: '#475569' }}>
+            <h2 style={{ fontSize: '2rem', color: 'var(--text-white)', marginBottom: '1rem' }}>How Can We Help Your Workshop?</h2>
+            <p style={{ marginBottom: '1.5rem', color: 'var(--text-body)' }}>
               Whether you are matching an exotic metallic tri-coat or setting up a brand-new body shop with spray booths and compressors, our technical team is at your service.
             </p>
 
@@ -121,32 +121,32 @@ export default function Contact() {
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 <div className="hero-stat-icon"><Phone size={20} /></div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b' }}>Immediate Customer Helpline</div>
-                  <div style={{ fontWeight: 700, color: '#0f172a', fontSize: '1.1rem' }}>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Immediate Customer Helpline</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text-white)', fontSize: '1.1rem' }}>
                     <a href="tel:+919159911569">+91 91599 11569</a>
                   </div>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                <div className="hero-stat-icon" style={{ background: '#dcfce7', color: '#16a34a' }}>
+                <div className="hero-stat-icon" style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--accent-emerald)', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
                   <i className="fab fa-whatsapp"></i>
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b' }}>Quick WhatsApp Chat</div>
-                  <div style={{ fontWeight: 700, color: '#0f172a', fontSize: '1.1rem' }}>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Quick WhatsApp Chat</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text-white)', fontSize: '1.1rem' }}>
                     <a href="https://wa.me/919159911569" target="_blank" rel="noreferrer">+91 91599 11569</a>
                   </div>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                <div className="hero-stat-icon" style={{ background: '#fee2e2', color: '#dc2626' }}>
+                <div className="hero-stat-icon" style={{ background: 'rgba(244, 63, 94, 0.15)', color: 'var(--accent-rose)', border: '1px solid rgba(244, 63, 94, 0.3)' }}>
                   <Mail size={20} />
                 </div>
                 <div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b' }}>Official Email Inquiries</div>
-                  <div style={{ fontWeight: 700, color: '#0f172a', fontSize: '1.1rem' }}>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>Official Email Inquiries</div>
+                  <div style={{ fontWeight: 700, color: 'var(--text-white)', fontSize: '1.1rem' }}>
                     <a href="mailto:induspaintsvellore@gmail.com">induspaintsvellore@gmail.com</a>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ export default function Contact() {
 
           <div className="contact-card-glass">
             <div className="badge-tag" style={{ marginBottom: '1rem' }}><Send size={14} /> Send Us a Message</div>
-            <h2 style={{ fontSize: '2rem', color: '#0f172a', marginBottom: '1.25rem' }}>Inquiry Form</h2>
+            <h2 style={{ fontSize: '2rem', color: 'var(--text-white)', marginBottom: '1.25rem' }}>Inquiry Form</h2>
 
             <form action="https://formsubmit.co/induspaintsvellore@gmail.com" method="POST">
               <input type="hidden" name="_captcha" value="false" />
@@ -169,7 +169,7 @@ export default function Contact() {
                 <input type="text" id="companyName" name="company" placeholder="e.g. Apex Auto Body Works" required />
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+              <div className="form-grid-2">
                 <div className="form-group">
                   <label htmlFor="fullName">Your Name</label>
                   <input type="text" id="fullName" name="name" placeholder="Full name" required />
@@ -180,7 +180,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+              <div className="form-grid-2">
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
                   <input type="email" id="email" name="email" placeholder="name@workshop.com" />

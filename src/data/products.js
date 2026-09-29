@@ -4,7 +4,7 @@ export const products = [
     title: 'Aeropro A608 HVLP 1.3mm',
     category: 'guns',
     categoryLabel: 'Spray Guns',
-    image: '/A608 Aeropro Premium 1.3 HVLP Spray Gun .jpg',
+    image: '/a608-spray-gun.jpg',
     specs: [
       '1.3mm Stainless Steel Fluid Nozzle',
       'High Volume Low Pressure (HVLP) Tech',
@@ -16,7 +16,7 @@ export const products = [
     title: 'Aeropro A610 LVLP 1.3mm',
     category: 'guns',
     categoryLabel: 'Spray Guns',
-    image: '/A610 Aeropro Premium 1.3mm LVLP Spray Gun .jpg',
+    image: '/a610-spray-gun.jpg',
     specs: [
       'Low Volume Low Pressure Precision',
       'Minimal Overspray & High Transfer',
@@ -28,7 +28,7 @@ export const products = [
     title: 'Aeropro A605 HVLP 1.3mm',
     category: 'guns',
     categoryLabel: 'Spray Guns',
-    image: '/A605 Aeropro 1.3mm HVLP Spray Gun.jpg',
+    image: '/a605-spray-gun.jpg',
     specs: [
       'Fine Atomization Pattern Nozzle',
       'Durable Chrome Plated Finish',
@@ -40,7 +40,7 @@ export const products = [
     title: 'Aeropro R500 LVLP 1.3mm',
     category: 'guns',
     categoryLabel: 'Spray Guns',
-    image: '/R500 Aeropro 1.3 LVLP Spray Gun.jpg',
+    image: '/r500-spray-gun.jpg',
     specs: [
       'Economical Low Air Consumption',
       'Wide Fan Pattern (200-280mm)',
@@ -52,7 +52,7 @@ export const products = [
     title: 'Aeropro R100 Touch-Up Gun',
     category: 'guns',
     categoryLabel: 'Spray Guns',
-    image: '/R100 Aeropro Premium 1.3 HVLP Spray Gun.jpg',
+    image: '/r100-spray-gun.jpg',
     specs: [
       'Compact Spot Repair & Edge Blending',
       '125ml / 250ml Mini Cup Option',
@@ -64,7 +64,7 @@ export const products = [
     title: 'DA Pneumatic Orbital Sander',
     category: 'sanding',
     categoryLabel: 'Abrasives & Sanding',
-    image: '/Sanding Machine.jpg',
+    image: '/sanding-machine.jpg',
     specs: [
       '6-Inch (150mm) Sanding Pad Size',
       '10,000 RPM Free Speed Balance',
@@ -76,7 +76,7 @@ export const products = [
     title: 'Velcro Sanding Discs (P80)',
     category: 'sanding',
     categoryLabel: 'Abrasives & Sanding',
-    image: '/Disc 80.jpg',
+    image: '/disc-80.jpg',
     specs: [
       '6-Inch Multi-Hole Dust Extraction',
       'Rapid Body Filler Leveling',
@@ -88,7 +88,7 @@ export const products = [
     title: 'Velcro Sanding Discs (P1200)',
     category: 'sanding',
     categoryLabel: 'Abrasives & Sanding',
-    image: '/Disc 1200.jpg',
+    image: '/disc-1200.jpg',
     specs: [
       'Ultra-Fine Clearcoat Sanding',
       'Paint Defect & Dust Nib Removal',
@@ -100,7 +100,7 @@ export const products = [
     title: 'Abrasive File Sheet Roll',
     category: 'sanding',
     categoryLabel: 'Abrasives & Sanding',
-    image: '/File Sheet 80.jpg',
+    image: '/file-sheet-80.jpg',
     specs: [
       '70mm x 198mm Hand Block Fitting',
       'Available in P80 to P400 Grit Sizes',
@@ -112,7 +112,7 @@ export const products = [
     title: 'Soft Sponge Interface Pad',
     category: 'sanding',
     categoryLabel: 'Abrasives & Sanding',
-    image: '/Interface Pad.jpg',
+    image: '/interface-pad.jpg',
     specs: [
       '10mm Dense Foam Sponge Cushion',
       'Conforms to Curved Body Panels',
@@ -124,7 +124,7 @@ export const products = [
     title: 'Corona Treated Masking Film',
     category: 'masking',
     categoryLabel: 'Masking & Prep',
-    image: '/Masking Film Role.jpg',
+    image: '/masking-film-roll.jpg',
     specs: [
       '4m x 150m Heavy-Duty Roll',
       'Static Cling to Vehicle Body',
@@ -136,7 +136,7 @@ export const products = [
     title: 'Automotive Masking Tape',
     category: 'masking',
     categoryLabel: 'Masking & Prep',
-    image: '/Brown Masking Role.jpg',
+    image: '/brown-masking-roll.jpg',
     specs: [
       'Heat Resistant up to 110°C (Oven Baking)',
       'Clean Razor-Sharp Paint Line Edge',
@@ -148,7 +148,7 @@ export const products = [
     title: 'Nylon Mesh Paint Strainers',
     category: 'masking',
     categoryLabel: 'Masking & Prep',
-    image: '/Filter Cone.jpg',
+    image: '/filter-cone.jpg',
     specs: [
       '190 / 125 Micron Fine Filtration',
       'Removes Dust Particles & Clumps',
@@ -160,7 +160,7 @@ export const products = [
     title: 'Spray Booth Air Filters',
     category: 'safety',
     categoryLabel: 'Air & Safety',
-    image: '/Booth Filter.jpg',
+    image: '/booth-filter.jpg',
     specs: [
       'Ceiling Diffuser & Floor Fiberglass Media',
       '99% Overspray Capture Efficiency',
@@ -172,7 +172,7 @@ export const products = [
     title: 'Precision Air Regulator & Gauge',
     category: 'safety',
     categoryLabel: 'Air & Safety',
-    image: '/Air Pressure Regulator.jpg',
+    image: '/air-pressure-regulator.jpg',
     specs: [
       '0-150 PSI Precision Pressure Dial',
       'Direct Gun Inlet Mounting',
@@ -184,7 +184,7 @@ export const products = [
     title: 'Dual Cartridge Respirator',
     category: 'safety',
     categoryLabel: 'Air & Safety',
-    image: '/Respiratory Mask.jpg',
+    image: '/respiratory-mask.jpg',
     specs: [
       'Active Organic Vapor Filter Cartridges',
       'Soft Hypoallergenic Face Seal',

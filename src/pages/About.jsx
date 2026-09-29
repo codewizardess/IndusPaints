@@ -16,16 +16,16 @@ export default function About({ setActiveTab }) {
         {/* Founder Spotlight */}
         <div className="founder-card" style={{ marginBottom: '4rem' }}>
           <div className="founder-img-wrap">
-            <img src="/Suresh babu.jpg" alt="Suresh Babu - Founder of Indus Paints" className="founder-img" />
+            <img src="/suresh-babu.jpg" alt="Suresh Babu - Founder of Indus Paints" className="founder-img" />
           </div>
           <div className="founder-info">
             <div className="badge-tag"><UserCheck size={14} /> Founder & Visionary</div>
             <h2 className="founder-name">Suresh Babu</h2>
             <div className="founder-role">Founder & Managing Director, Indus Paints</div>
-            <p style={{ fontSize: '1.05rem', lineHeight: '1.8', color: '#334155' }}>
+            <p style={{ fontSize: '1.05rem', lineHeight: '1.8', color: 'var(--text-body)' }}>
               "A vehicle's paint is not merely a cosmetic layer; it is the ultimate expression of craft, pride, and engineering protection. When we started Indus Paints in 2007, our goal was simple: bring world-class paint chemistry and authentic application tools directly to technicians who refuse to compromise on quality."
             </p>
-            <p style={{ fontSize: '0.95rem', color: '#64748b' }}>
+            <p style={{ fontSize: '0.95rem', color: 'var(--text-muted)' }}>
               Over nearly two decades, Mr. Suresh Babu has steered Indus Paints from a dedicated local mixing station in Vellore into one of Tamil Nadu's most respected authorized distributors for world-renowned paint titans — including Glasurit (BASF), Valspar, Kansai Nerolac, and Prospray.
             </p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
@@ -88,28 +88,28 @@ export default function About({ setActiveTab }) {
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
-            <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '10px', padding: '1.5rem', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 800, color: '#0284c7', marginBottom: '0.5rem' }}>2007</div>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Foundation in Vellore</h4>
-              <p style={{ fontSize: '0.85rem' }}>Started by Suresh Babu to provide reliable automotive color mixing to local garages and body shops.</p>
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-glass)', borderRadius: '16px', padding: '1.75rem', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', fontWeight: 800, color: 'var(--primary-cyan)', marginBottom: '0.5rem' }}>2007</div>
+              <h4 style={{ color: 'var(--text-white)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Foundation in Vellore</h4>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-body)' }}>Started by Suresh Babu to provide reliable automotive color mixing to local garages and body shops.</p>
             </div>
 
-            <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '10px', padding: '1.5rem', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 800, color: '#0284c7', marginBottom: '0.5rem' }}>2012</div>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Authorized Distributorship</h4>
-              <p style={{ fontSize: '0.85rem' }}>Secured official distribution rights for premier automotive brands including Glasurit, Valspar, and Kansai Nerolac.</p>
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-glass)', borderRadius: '16px', padding: '1.75rem', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', fontWeight: 800, color: 'var(--primary-blue)', marginBottom: '0.5rem' }}>2012</div>
+              <h4 style={{ color: 'var(--text-white)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Authorized Distributorship</h4>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-body)' }}>Secured official distribution rights for premier automotive brands including Glasurit, Valspar, and Kansai Nerolac.</p>
             </div>
 
-            <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '10px', padding: '1.5rem', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 800, color: '#0284c7', marginBottom: '0.5rem' }}>2018</div>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Chennai Flagship Hub</h4>
-              <p style={{ fontSize: '0.85rem' }}>Opened the Velachery branch in Chennai to meet high-volume demand from leading auto dealership service centers.</p>
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-glass)', borderRadius: '16px', padding: '1.75rem', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', fontWeight: 800, color: '#f43f5e', marginBottom: '0.5rem' }}>2018</div>
+              <h4 style={{ color: 'var(--text-white)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Chennai Flagship Hub</h4>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-body)' }}>Opened the Velachery branch in Chennai to meet high-volume demand from leading auto dealership service centers.</p>
             </div>
 
-            <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '10px', padding: '1.5rem', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 800, color: '#0284c7', marginBottom: '0.5rem' }}>Present</div>
-              <h4 style={{ color: '#0f172a', marginBottom: '0.5rem' }}>Complete Supply Ecosystem</h4>
-              <p style={{ fontSize: '0.85rem' }}>Serving over 1,000+ body shops and master customizers with full paint, spray gun, and consumable logistics.</p>
+            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-glass)', borderRadius: '16px', padding: '1.75rem', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'var(--font-heading)', fontSize: '2.2rem', fontWeight: 800, color: '#10b981', marginBottom: '0.5rem' }}>Present</div>
+              <h4 style={{ color: 'var(--text-white)', marginBottom: '0.5rem', fontSize: '1.1rem' }}>Complete Ecosystem</h4>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-body)' }}>Serving over 1,000+ body shops and master customizers with full paint, spray gun, and consumable logistics.</p>
             </div>
           </div>
         </div>
